@@ -31,7 +31,7 @@ describe('Fizzbuzz', function() {
     });
     it('will FizzBuzz for 30', function() {
       expect(fizzbuzz.play(30)).toEqual('FizzBuzz');
-    });
+    });  
   });
 
   describe('all other numbers', function() {
